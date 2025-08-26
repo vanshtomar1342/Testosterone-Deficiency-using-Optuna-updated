@@ -44,5 +44,4 @@ if st.button("Testosterone Deficiency Test Result"):
     except Exception as e:
         st.error(f"Error in prediction: {e}")
 
-if __name__=='__main__':
-    main()
+        
