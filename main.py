@@ -15,7 +15,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Collect user input
-Age = st.slider('How old are you?', 45, 85, 60)
+Age = st.slider('How old are you?', 45, 85, 60, 70)
 TG = st.text_input('Triglycerides (mg/dl)')
 AC = st.text_input('Waist Circumference (cm)')
 HDL = st.text_input('High-Density Lipoprotein levels (mg/dl)')
